@@ -20,16 +20,18 @@
 ##############################################################################
 
 {
-    'name' : 'Mail thread date patch',  # This will appear on the apps list
+    'name' : 'Messaging Date Fixer',  # This will appear on the apps list
     'version' : '1.0', 		# version that will make to upgrade
     'author' : 'Esmaeil Samadi',	
     'category' : 'Web',
     'sequence' : 1,			#
     'website' : 'www.webirani.com',
-    'summary' : 'Mail Thread Widget',
+    'summary' : 'Messaging Date Fixer',
     'description' : """
-        This module fix the mail thread date problem,
-        after one week, the date change to long number.
+Messaging Date Fixer
+====================
+A major problem in Odoo 7.0 is dates in "Messaging" module. This date after one week change to a long number that does not mean anything to end user. After install this module date shows as well as it expected.
+
     """,
     'depends' : ['web', 'mail'], # list of dependant modules
     'installable' : True, 
@@ -38,5 +40,6 @@
     'js' : [
            'static/src/js/mail.js',
      ],   
+     'license': 'AGPL-3',
 }
 # vim :expandtab :smartindent :tabstop=4 :softtabstop=4 :shiftwidth=4 :
