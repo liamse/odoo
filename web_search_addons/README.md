@@ -1,5 +1,4 @@
-#Comma as OR Search Addons
-
+# Comma as OR Search Addons
 One major use of search is related to search a list of items. Most of the time this items are listed in Excel or CSV file.
 This module help to copy a list of comma seperated items into search box and search all of them in once. In essence, the comma here is like OR operator.
 ## How to use copy from Excel
