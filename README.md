@@ -1,5 +1,5 @@
 # List of my modules
 
-- Chatter Date Fixer
+- Messaging Date Fixer
 
 
