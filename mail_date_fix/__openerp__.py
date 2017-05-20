@@ -20,22 +20,19 @@
 ##############################################################################
 
 {
-    'name' : 'Mail thread date patch',  # This will appear on the apps list
+    'name' : 'Messaging Date Fixer',  # This will appear on the apps list
     'version' : '1.0', 		# version that will make to upgrade
     'author' : 'Esmaeil Samadi',	
     'category' : 'Web',
     'sequence' : 1,			#
     'website' : 'www.webirani.com',
-    'summary' : 'Mail Thread Widget',
+    'summary' : 'Messaging Date Fixer',
     'description' : """
-# Messaging Date Fixer
-A major problem in Odoo 7.0 is dates in "Massageing Date" part. This date after one week change to a long number that does not mean anything to end user. 
+Messaging Date Fixer
+====================
+A major problem in Odoo 7.0 is dates in "Messaging" module. This date after one week change to a long number that does not mean anything to end user. After install this module date shows as well as it expected.
 
-![Odoo 7.0 Chatter with long number date](/images/chatter_date_before.png?raw=true "Odoo 7.0 Chatter with long number date")
 
-After install this module date shows as well as it expected.
-
-![Odoo 7.0 Chatter with formated date](/images/chatter_date_after.png?raw=true "Odoo 7.0 Chatter with date format")
     """,
     'depends' : ['web', 'mail'], # list of dependant modules
     'installable' : True, 

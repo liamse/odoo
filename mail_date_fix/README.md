@@ -1,5 +1,5 @@
 # Messaging Date Fixer
-A major problem in Odoo 7.0 is dates in "Massageing Date" part. This date after one week change to a long number that does not mean anything to end user. 
+A major problem in Odoo 7.0 is dates in "Messageing" module. This date after one week change to a long number that does not mean anything to end user. 
 
 ![Odoo 7.0 Chatter with long number date](/images/chatter_date_before.png?raw=true "Odoo 7.0 Chatter with long number date")
 
