@@ -9,3 +9,7 @@
     - To make it simpler, in Excel, follow this scenario.
     First of all, create a column of your items that want to search, next add a column in right of it with commas, Finally copy two columns in once and paste it into search box.
     - This feature works in Advance Search as well.
+
+- Convert All Dates to Persian and Gerogerian
+	- Convert all dates in readonly state convert to following format: 
+	- Persian Date ([Gerogerian Date] [HH:MM:SS]), e.g. 1395/12/01 (02/19/2017 11:40:53)
